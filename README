@@ -1,0 +1,29 @@
+Asstant
+=======
+
+Asstant is a Discord bot that answers questions using OpenAI.
+
+Requirements
+------------
+
+* Node
+* [A Discord App](https://discord.com/developers/docs/getting-started#creating-an-app)
+* [An Open AI API key](https://platform.openai.com/account/api-keys)
+
+Usage
+-----
+
+On your server computer:
+
+1. Download dependencies: `npm install`.
+
+2. Copy `.env.example` to `.env` and edit it to have the right credentials for
+Discord and OpenAI.
+
+3. (One time) register the bot commands in your Discord app: `node asstant.mjs deploy`.
+
+4. Start the bot: `npm asstant.mjs start`.
+
+In your Discord server:
+
+`/question What is love?`
